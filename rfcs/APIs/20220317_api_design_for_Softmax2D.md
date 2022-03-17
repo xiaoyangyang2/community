@@ -13,7 +13,7 @@
 ## 1、相关背景
 为了提升飞桨API丰富度，Paddle需要扩充API`paddle.nn.Softmax2D`。
 ## 2、功能目标
-增加API`paddle.nn.Softmax2D`，实现针对 3D 或者 4D 的 tensor 在空间维度计算softmax，从而输出 tensor 在每个空间维度（channels, hj, wj）的 tensor 求和为1。
+增加API`paddle.nn.Softmax2D`，实现针对 3D 或者 4D 的 tensor 在空间维度计算softmax，从而输出 tensor 在每个空间维度（channels, hi, wj）的 tensor 求和为1。
 
 ## 3、意义
 飞桨支持计算Softmax2D
